@@ -1,0 +1,93 @@
+# ==================================
+# VISUAL STUDIO / C#
+# ==================================
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.dbmdl
+*.bak
+*.Backup
+*.log
+*.vs/
+*.vscode/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ==================================
+# NODE / JAVASCRIPT / REACT
+# ==================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# ==================================
+# COMMON / GENERAL
+# ==================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+.idea/
+*.iml
+*.vspscc
+*.orig
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.orig
+
+# ==================================
+# MISC
+# ==================================
+# Ignore local history from VSCode
+.history/

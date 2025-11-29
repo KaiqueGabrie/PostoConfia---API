@@ -1,0 +1,6 @@
+@PostoConfia_HostAddress = http://localhost:5160
+
+GET {{PostoConfia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
